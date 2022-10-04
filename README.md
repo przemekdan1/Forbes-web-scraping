@@ -3,7 +3,8 @@ Place to store my work on web scraping task
 
 04.10.2022
 [PL]
-Spis przesłanych plików wraz z krótkim opisem do czego słuzyły oraz jakie problemy rozwązywały, (wg mnie w kolejności od najbardzej kluczowych do tychpobocznych)  Nazwy plików nie opisują odpowiendnio działanie proramu, lecz w przyszłości zostaną zaktualizowane, aby były jasne. 
+
+Spis przesłanych plików wraz z krótkim opisem do czego słuzyły oraz jakie problemy rozwązywały. Nazwy plików nie wskazują na to co progam wykonuje, lecz w przyszłości zostaną one zaktualizowane, tak aby były jasne. 
 
 ## Do tego kilka plików będących rezultatem wykonania programu:
 - **forbesFixed.csv** - dane ściągnięte ze stron zawierających listy firm nalezacych do diamentów Forbesa w latach 2016-2022. Dane zostały poprawione po wychwyceniu błędów u źródła i zawierają poprawne dane w odpowiednich kolumnach
