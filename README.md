@@ -13,10 +13,9 @@ Spis przesłanych plików wraz z krótkim opisem do czego słuzyły oraz jakie p
 ## Programy:
 - **headless.py** - zaktualizowana wersja programu, scrapowanie danych dotyczących konkretnej firmy z eKRSu, próba skozystania z: headless mode - strona nie pozwalała na to, user-agent. Poniewaz strona po 30 zapytaniach blokowała czasowo uzytkownika, zawiera mechanizm który na bierząco dopisuje wynik scrapingu do odpowiedniego pliku - zabezpeiczenie przed pojawieniem się błędu. W momencie braku wyniku w wyszukiwaniu podmiotu lub ich większa ilość, nazwa takej firmy jest zapisywana do odpowiedniego pliku tekstowego i jest obsługiwana w inny sposób
 - **test.py**, **ekrs.py** - pierwsza wersja sciągania numeru KRS firmy, mająca na celu dokładniejsze wyszukiwanie danych KRS firmy na stronie ekrs, jeśli w nagłówku pojawia się numer KRS, to zostaje on przypisany do firmy, jeśli nie, sterownik przechodzi na stronę krs-online.com.pl i stamtąd go ściąga, (juz wiem ze da się od razu go sciągnąć z krótkiego opisu)
-- **
 - **test2.py** - wykozystanie wyszukiwania wyników tylko z jedenej strony (np. site:krs-online.com.pl), cel: firma-KRS
 - **google.py** - próby uniknięcia wykrycia: user-agent, nieregularne wysyłanie zapytań
-- - **googleAPI** - wykozystanie biblioteki ecommercetools, jedna z funkcji zwraca w przytępnej formie wyniki wyszukiwań danej frazy z google, jednak nie jest zapewnia niewykrywalności, implementacja srodków zaradczych 
+- **googleAPI** - wykozystanie biblioteki ecommercetools, jedna z funkcji zwraca w przytępnej formie wyniki wyszukiwań danej frazy z google, jednak nie jest zapewnia niewykrywalności, implementacja srodków zaradczych 
 - **gpw.py** - sciągnięcie ze stron gpw i newconnect listy firm obecnych w tych serwisach, pomysł był taki aby porównać te listy z listą firm z forbesa i odnaleźć powtarzące się firmy poniewaz wyszukiwanie na tych stronach jest bardzo dokładne (nieelastyczne)
 - **scrapeData** - sciąganie danych firmy ze strony gpw.pl, (w trakcje implementacji do newconnect)
 
